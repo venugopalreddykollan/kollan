@@ -1,38 +1,82 @@
-# Venu's Portfolio Website
+# Robotics Portfolio Template
 
-A modern, responsive web portfolio that showcases MY projects, skills, and experience.
+A responsive single-page portfolio template focused on robotics/software profiles.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio/
-├── index.html          # Main HTML file
+├── index.html
 ├── css/
-│   └── styles.css      # Stylesheet
+│   └── styles.css
 ├── js/
-│   └── script.js       # JavaScript for interactivity
-├── images/             # Folder for project images
-└── README.md           # This file
+│   └── script.js
+├── assests/
+│   └── ... media files and icons
+└── README.md
 ```
 
-## 🎨 Features
+## What Is Included
 
-- **Responsive Design**: Looks great on all devices (desktop, tablet, mobile)
-- **Modern Layout**: Clean and professional design with smooth animations
-- **Interactive Navigation**: Mobile-friendly hamburger menu
-- **Sections Included**:
-  - Hero section with call-to-action buttons
-  - About section with statistics
-  - Skills showcase with icons
-  - Projects gallery with hover effects
-  - Contact form
-  - Social media links
-  - Footer
+- Responsive navigation with mobile menu
+- Home hero with neural-canvas interaction
+- About, Skills, Projects, and Contact sections
+- Contact form integration (FormSubmit)
+- Theme toggle (dark/light)
+- Scroll animations and interactive project media
 
-## 📄 License
+## Use This As Your Own Template
 
-Feel free to use this template for your portfolio. Modify and customize as needed!
+If you want to personalize this template:
 
----
+1. Clone the repository:
 
-Happy coding! 🎉
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+```
+
+2. Create a local npm setup (for easier local development):
+
+```bash
+npm init -y
+npm install --save-dev live-server
+```
+
+3. Add a run script in package.json:
+
+```json
+{
+  "scripts": {
+    "dev": "live-server --open=index.html"
+  }
+}
+```
+
+4. Run locally:
+
+```bash
+npm run dev
+```
+
+## Personalization Checklist
+
+- Update name, title, and section text in index.html
+- Replace project media inside assests/
+- Update social links in the navigation bar
+- Update contact form action email (FormSubmit)
+- Adjust colors, spacing, and typography in css/styles.css
+- Update neural behavior and interactions in js/script.js
+
+## Deploy
+
+You can deploy this as a static site on:
+
+- GitHub Pages
+- Netlify
+- Vercel
+- Cloudflare Pages
+
+## License
+
+Free to use, customize, and publish with attribution appreciated.
