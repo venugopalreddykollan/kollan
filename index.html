@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kollan - Portfolio</title>
+    <title>Venugopal Reddy Kollan | Robotics Software Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Section: Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-content">
@@ -20,6 +20,14 @@
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+                <div class="nav-social">
+                    <a href="https://github.com/venugopalreddykollan" target="_blank" title="GitHub" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/venugopal-reddy-kollan" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -29,226 +37,189 @@
         </div>
     </nav>
 
-    <!-- Home Section -->
+    <!-- Section: Home -->
     <section id="home" class="hero">
+        <canvas class="neural-canvas" aria-hidden="true"></canvas>
         <div class="container">
             <div class="hero-content">
-                <h1>Hello, I'm <span class="highlight">Venugopal Reddy Kollan</span></h1>
-                <p class="subtitle">Robotic Software Developer | Data Scientist | Deep Learning Enthusiast</p>
-                <p class="description">Building intelligent systems with Neural Networks and Machine Learning</p>
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
+                <h1>Hi, I'm <span class="highlight">Venugopal Reddy Kollan</span></h1>
+                <p class="subtitle">Robotic Software Developer | Robotics Research Enthusiast</p>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Section: About -->
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a passionate AI/ML Engineer with expertise in Deep Learning, Computer Vision, and Natural Language Processing. Currently pursuing my Master's in Artificial Intelligence, I specialize in building intelligent systems using cutting-edge neural network architectures.</p>
-                    <p>My journey in AI started with a Bachelor's degree in Mechanical Engineering, Masters in Mechatronics and Robotics, and evolved into developing production-ready ML models that solve real-world problems. I'm dedicated to pushing the boundaries of what's possible with AI.</p>
-                    <div class="stats">
-                        <div class="stat">
-                            <h3>15+</h3>
-                            <p>ML Projects</p>
-                        </div>
-                        <div class="stat">
-                            <h3>10+</h3>
-                            <p>Research Papers</p>
-                        </div>
-                        <div class="stat">
-                            <h3>95%+</h3>
-                            <p>Model Accuracy</p>
-                        </div>
-                    </div>
+                    <p>Robotics Software Developer with a background in Mechanical Engineering, currently pursuing a Master's in Mechatronics and Robotics at Hochschule Schmalkalden</p>
+                    <p>Growing up in a farming environment shaped my interest in solving real-world automation challenges. I now focus on building reliable robotics software systems</p>
+                    <p>During my internship at BMW, I worked on ROS2-based development and integration in an industrial setting, focusing on robustness, validation, and deployment on real hardware</p>
+                    <p>Currently seeking Master's thesis opportunities in Robotics Software or Robotics Research, with a focus on intelligent, real-world robotic systems</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Section: Skills -->
     <section id="skills" class="skills">
         <div class="container">
             <h2>Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-card">
-                    <i class="fas fa-brain"></i>
-                    <h3>Deep Learning</h3>
-                    <p>TensorFlow, PyTorch, Keras, CNNs, RNNs, Transformers</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-robot"></i>
-                    <h3>Machine Learning</h3>
-                    <p>Scikit-learn, XGBoost, Random Forest, SVM, NLP</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-python"></i>
+                    <img src="assests/icons/python.png" alt="Programming icon" class="skill-icon">
                     <h3>Programming</h3>
-                    <p>Python, R, SQL, C++, MATLAB</p>
+                    <p>Python, asyncio, NumPy, pandas</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Data Science</h3>
-                    <p>Pandas, NumPy, Matplotlib, Seaborn, OpenCV</p>
+                    <img src="assests/icons/ROS_icon.png" alt="Robotics icon" class="skill-icon">
+                    <h3>Robotic Frameworks</h3>
+                    <p>ROS2, RViz, MoveIt, Gazebo, MuJoCo</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-cloud"></i>
-                    <h3>MLOps & Cloud</h3>
-                    <p>Docker, Kubernetes, AWS, Azure, GCP, MLflow</p>
+                    <img src="assests/icons/developer.png" alt="Development tools icon" class="skill-icon">
+                    <h3>Development Tools</h3>
+                    <p>Git, GitHub, Docker, CI/CD, Linux</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-database"></i>
-                    <h3>Big Data</h3>
-                    <p>Spark, Hadoop, MongoDB, PostgreSQL</p>
+                    <img src="assests/icons/agile.png" alt="Collaboration tools icon" class="skill-icon">
+                    <h3>Collaboration Tools</h3>
+                    <p>Jira, Confluence, Agile, Scrum</p>
+                </div>
+                <div class="skill-card">
+                    <img src="assests/icons/AI.png" alt="Vision and Deep Learning icon" class="skill-icon">
+                    <h3>Vision & Deep Learning</h3>
+                    <p>OpenCV, ArUco Marker Tracking, PyTorch</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Section: Projects -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Featured Projects</h2>
+            <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="neural-bg"></div>
+                        <video class="project-video" muted loop playsinline preload="metadata">
+                            <source src="assests/Velocity%20Visualization%20of%20raw%20and%20filtered%20(2).mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="project-info">
-                        <h3>Autonomous Mobile Robot Navigation</h3>
-                        <p>Developed SLAM-based navigation system for warehouse robots using ROS, LiDAR sensors, and path planning algorithms with obstacle avoidance capabilities</p>
+                        <h3>ROS2 Trajectory Planning & Velocity Filtering</h3>
+                        <p>Built ROS2 nodes for Cartesian trajectory generation using cubic polynomials, then designed a velocity estimation and low-pass filtering pipeline to produce smoother and more stable motion insights.</p>
                         <div class="project-tags">
-                            <span>ROS</span>
-                            <span>SLAM</span>
+                            <span>ROS2</span>
+                            <span>Trajectory Planning</span>
                             <span>Python</span>
-                            <span>Path Planning</span>
+                            <span>Signal Filtering</span>
+                            <span>Docker</span>
+                            <span>CI/CD</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>GitHub Actions</span>
                         </div>
-                        <a href="https://github.com/venugopal" class="project-link">View on GitHub →</a>
+                        <a href="https://github.com/venugopalreddykollan" class="project-link" target="_blank" rel="noopener noreferrer">Project Overview →</a>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="neural-bg robot-bg"></div>
+                        <img src="assests/RViz%20visualization%20of%20ASRS.png" alt="RViz visualization of 4-DOF robotic arm" class="project-photo" loading="lazy">
                     </div>
                     <div class="project-info">
-                        <h3>Robotic Arm Control System</h3>
-                        <p>Implemented inverse kinematics and trajectory planning for 6-DOF robotic manipulator with vision-based object grasping using OpenCV and deep learning</p>
+                        <h3>Control and Kinematics of a 4-DOF Robotic Arm</h3>
+                        <p>Programmed forward and inverse kinematics workflows from DH parameters,Verified kinematics, joint limits, TF frames, and URDF integrity and integrated joint-level control for a fabricated 4-DOF arm, verified the the link</p>
                         <div class="project-tags">
                             <span>Kinematics</span>
-                            <span>Computer Vision</span>
-                            <span>C++</span>
+                            <span>Python</span>
+                            <span>URDF</span>
+                            <span>RViz</span>
+                            <span>MoveIt</span>
                         </div>
-                        <a href="https://github.com/venugopal" class="project-link">View on GitHub →</a>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="neural-bg data-bg"></div>
+                        <img src="assests/Bridge_assembly.png" alt="Bridge assembly component" class="project-photo" loading="lazy">
                     </div>
                     <div class="project-info">
-                        <h3>Predictive Maintenance ML Model</h3>
-                        <p>Machine learning system for equipment failure prediction using sensor data, achieving 92% accuracy with Random Forest and LSTM networks</p>
+                        <h3>Automated Bridge Assembly using UR5e</h3>
+                        <p>Implemented a computer vision pipeline for marker-based detection and pose-aware assembly logic in a robotic bridge-assembly challenge, bridging perception and manipulation in a structured workflow.</p>
                         <div class="project-tags">
-                            <span>TensorFlow</span>
-                            <span>Scikit-learn</span>
-                            <span>IoT</span>
-                        </div>
-                        <a href="https://github.com/venugopal" class="project-link">View on GitHub →</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="neural-bg prediction-bg"></div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Real-Time Object Detection for Manufacturing</h3>
-                        <p>YOLO-based quality inspection system for detecting defects in production line with 95% precision, reducing manual inspection time by 70%</p>
-                        <div class="project-tags">
-                            <span>YOLO</span>
+                            <span>SolidWorks</span>
+                            <span>3D Printing</span>
                             <span>OpenCV</span>
-                            <span>Edge Computing</span>
+                            <span>ArUco</span>
+                            <span>Pose Estimation</span>
+                            <span>UR5e</span>
                         </div>
-                        <a href="https://github.com/venugopal" class="project-link">View on GitHub →</a>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="neural-bg gan-bg"></div>
+                        <video class="project-video" muted loop playsinline preload="metadata">
+                            <source src="assests/penplotter.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="project-info">
-                        <h3>Multi-Agent Reinforcement Learning</h3>
-                        <p>Developed collaborative robot system using deep Q-learning for warehouse automation, optimizing task allocation and reducing operation time by 40%</p>
+                        <h3>Pen_plotter</h3>
+                        <p>Designed and 3d printed a penplotter and coded the ESP32 microcontroller to draw a Nicolas House with featuring an Emergency stop functionality Button</p>
                         <div class="project-tags">
-                            <span>RL</span>
-                            <span>PyTorch</span>
-                            <span>Multi-Agent</span>
+                            <span>SolidWorks</span>
+                            <span>3D Printing</span>
+                            <span>Zortrax 3d Printing software</span>
+                            <span>ESP32</span>
+                            <span>Microcontroller</span>
+                            <span>Embedded Systems</span>
                         </div>
-                        <a href="https://github.com/venugopal" class="project-link">View on GitHub →</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="neural-bg chatbot-bg"></div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Digital Twin Simulation Platform</h3>
-                        <p>Created virtual replica of robotic assembly line using Gazebo and Unity for testing, optimization, and predictive analytics before physical deployment</p>
-                        <div class="project-tags">
-                            <span>Gazebo</span>
-                            <span>Unity</span>
-                            <span>Simulation</span>
-                        </div>
-                        <a href="https://github.com/venugopal" class="project-link">View on GitHub →</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Section: Contact -->
     <section id="contact" class="contact">
+        <canvas class="contact-neural-canvas" aria-hidden="true"></canvas>
         <div class="container">
-            <h2>Let's Work Together</h2>
+            <h2>Let's Connect</h2>
             <div class="contact-content">
-                <p>I'm always interested in hearing about new projects and opportunities.</p>
-                <form class="contact-form" id="contactForm">
+                <p>I'm actively seeking Master's Thesis opportunities and am always open to connecting with researchers, engineers, and teams in the robotics field. If you'd like to discuss technology, research, or potential collaborations, please feel free to reach out.</p>
+                <form class="contact-form" id="contactForm" action="https://formsubmit.co/venugopal.reddy.kollan@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New portfolio contact message">
+                    <input type="hidden" name="_captcha" value="false">
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
-                <div class="social-links">
-                    <a href="https://github.com/venugopal" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/venugopal-kollan" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:venu@example.com" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://scholar.google.com" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Section: Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Venu Gopal Kollan. All rights reserved.</p>
+            <p>&copy; 2026 Venugopal Reddy Kollan. Robotics software portfolio.</p>
         </div>
     </footer>
+
+    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle color theme">
+        <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+        <span class="theme-toggle-text">Light Mode</span>
+    </button>
 
     <script src="js/script.js"></script>
 </body>
